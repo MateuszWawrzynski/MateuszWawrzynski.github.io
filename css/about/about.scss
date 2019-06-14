@@ -40,6 +40,7 @@ $sidebar_width: 250px;
 
 	.about-img {
 		margin-bottom: 30px;
+		padding: 0;
 	}
 	.about-text {
 		padding: 0 15px;
@@ -51,6 +52,12 @@ $sidebar_width: 250px;
 	}
 	.about-contact {
 		text-align: left;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.about {
+		padding: 30px 30px 100px 30px;
 	}
 }
 

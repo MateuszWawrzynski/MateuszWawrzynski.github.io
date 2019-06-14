@@ -28,6 +28,7 @@
 
 .about .about-img {
   margin-bottom: 30px;
+  padding: 0;
 }
 
 .about .about-text {
@@ -41,6 +42,12 @@
 
 .about .about-contact {
   text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    padding: 30px 30px 100px 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
